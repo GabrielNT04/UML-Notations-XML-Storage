@@ -1,0 +1,170 @@
+<mxlibrary title="UML Komponenten"><![CDATA[[
+  {
+    "title": "Komponente («component» + Icon)",
+    "w": 170,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«component»&lt;br&gt;&lt;b&gt;Component&lt;/b&gt;' umlType='Component' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponente: Classifier-Rechteck mit «component»; optional Komponentensymbol oben rechts (Rechteck mit zwei kleinen Rechtecken links). Mit Symbol darf das Schlüsselwort entfallen.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='170' height='60' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Component icon' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponentensymbol (optional)' id='3'><mxCell style='shape=component;jettyWidth=8;jettyHeight=4;html=1;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='16' height='18' relative='1' as='geometry'><mxPoint x='-24' y='6' as='offset'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Komponente (nur Icon)",
+    "w": 160,
+    "h": 50,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;b&gt;Component&lt;/b&gt;' umlType='Component' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponente nur mit Komponentensymbol.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='160' height='50' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Component icon' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponentensymbol (optional)' id='3'><mxCell style='shape=component;jettyWidth=8;jettyHeight=4;html=1;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='16' height='18' relative='1' as='geometry'><mxPoint x='-24' y='6' as='offset'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Komponente (nur Schlüsselwort)",
+    "w": 160,
+    "h": 50,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«component»&lt;br&gt;&lt;b&gt;Component&lt;/b&gt;' umlType='Component' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponente nur mit «component».' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='160' height='50' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Komponente, Black-Box (Interface-Compartments)",
+    "w": 200,
+    "h": 160,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«component»&lt;br&gt;&lt;b&gt;Component&lt;/b&gt;' umlType='Component' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Optionale Compartments &apos;provided interfaces&apos; und &apos;required interfaces&apos; listen die Interfaces namentlich.' id='2'><mxCell style='swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='200' height='160' as='geometry'/></mxCell></UserObject><mxCell id='3' value='provided interfaces' style='text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;' vertex='1' parent='2'><mxGeometry y='42' width='200' height='22' as='geometry'/></mxCell><mxCell id='4' value='IProvided1' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='64' width='200' height='22' as='geometry'/></mxCell><mxCell id='5' value='IProvided2' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='86' width='200' height='22' as='geometry'/></mxCell><mxCell id='6' value='' style='line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;' vertex='1' parent='2'><mxGeometry y='108' width='200' height='8' as='geometry'/></mxCell><mxCell id='7' value='required interfaces' style='text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;' vertex='1' parent='2'><mxGeometry y='116' width='200' height='22' as='geometry'/></mxCell><mxCell id='8' value='IRequired1' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='138' width='200' height='22' as='geometry'/></mxCell><UserObject label='' umlType='Component icon' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponentensymbol (optional)' id='9'><mxCell style='shape=component;jettyWidth=8;jettyHeight=4;html=1;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='16' height='18' relative='1' as='geometry'><mxPoint x='-24' y='6' as='offset'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Komponente, White-Box (realizations/artifacts)",
+    "w": 200,
+    "h": 264,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«component»&lt;br&gt;&lt;b&gt;Component&lt;/b&gt;' umlType='Component' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Optionale Compartments &apos;realizations&apos; (realisierende Classifier) und &apos;artifacts&apos; (manifestierende Artefakte).' id='2'><mxCell style='swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='200' height='264' as='geometry'/></mxCell></UserObject><mxCell id='3' value='provided interfaces' style='text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;' vertex='1' parent='2'><mxGeometry y='42' width='200' height='22' as='geometry'/></mxCell><mxCell id='4' value='IProvided' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='64' width='200' height='22' as='geometry'/></mxCell><mxCell id='5' value='' style='line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;' vertex='1' parent='2'><mxGeometry y='86' width='200' height='8' as='geometry'/></mxCell><mxCell id='6' value='required interfaces' style='text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;' vertex='1' parent='2'><mxGeometry y='94' width='200' height='22' as='geometry'/></mxCell><mxCell id='7' value='IRequired' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='116' width='200' height='22' as='geometry'/></mxCell><mxCell id='8' value='' style='line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;' vertex='1' parent='2'><mxGeometry y='138' width='200' height='8' as='geometry'/></mxCell><mxCell id='9' value='realizations' style='text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;' vertex='1' parent='2'><mxGeometry y='146' width='200' height='22' as='geometry'/></mxCell><mxCell id='10' value='ClassA' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='168' width='200' height='22' as='geometry'/></mxCell><mxCell id='11' value='ClassB' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='190' width='200' height='22' as='geometry'/></mxCell><mxCell id='12' value='' style='line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;' vertex='1' parent='2'><mxGeometry y='212' width='200' height='8' as='geometry'/></mxCell><mxCell id='13' value='artifacts' style='text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;' vertex='1' parent='2'><mxGeometry y='220' width='200' height='22' as='geometry'/></mxCell><mxCell id='14' value='component.jar' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='242' width='200' height='22' as='geometry'/></mxCell><UserObject label='' umlType='Component icon' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponentensymbol (optional)' id='15'><mxCell style='shape=component;jettyWidth=8;jettyHeight=4;html=1;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='16' height='18' relative='1' as='geometry'><mxPoint x='-24' y='6' as='offset'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Komponente mit interner Struktur",
+    "w": 340,
+    "h": 190,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«component»&lt;br&gt;&lt;b&gt;Component&lt;/b&gt;' umlType='Component (internal structure)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4 / 11.2.4' tooltip='White-Box-Sicht: Struktur-Compartment mit Parts (Teilkomponenten), Assembly- und Delegation-Connectoren. Das Compartment ist ein Container.' id='2'><mxCell style='swimlane;fontStyle=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;container=1;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;' vertex='1' parent='1'><mxGeometry width='340' height='190' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Component icon' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponentensymbol (optional)' id='3'><mxCell style='shape=component;jettyWidth=8;jettyHeight=4;html=1;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='16' height='18' relative='1' as='geometry'><mxPoint x='-24' y='10' as='offset'/></mxGeometry></mxCell></UserObject><UserObject label='internal structure' umlType='internal structure compartment' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='4'><mxCell style='rounded=0;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;container=1;collapsible=0;recursiveResize=0;align=center;verticalAlign=top;fontStyle=2;fontSize=11;spacingTop=-2;' vertex='1' parent='2'><mxGeometry y='40' width='340' height='150' as='geometry'/></mxCell></UserObject><UserObject label='&lt;b&gt;: PartA&lt;/b&gt;' umlType='Property (part, typed by Component)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='5'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='4'><mxGeometry x='30' y='50' width='100' height='44' as='geometry'/></mxCell></UserObject><UserObject label='&lt;b&gt;: PartB&lt;/b&gt;' umlType='Property (part, typed by Component)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='6'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='4'><mxGeometry x='210' y='50' width='100' height='44' as='geometry'/></mxCell></UserObject><mxCell id='7' value='' style='shape=component;jettyWidth=8;jettyHeight=4;html=1;part=1;connectable=0;' vertex='1' parent='5'><mxGeometry x='1' width='12' height='14' relative='1' as='geometry'><mxPoint x='-18' y='4' as='offset'/></mxGeometry></mxCell><mxCell id='8' value='' style='shape=component;jettyWidth=8;jettyHeight=4;html=1;part=1;connectable=0;' vertex='1' parent='6'><mxGeometry x='1' width='12' height='14' relative='1' as='geometry'><mxPoint x='-18' y='4' as='offset'/></mxGeometry></mxCell><UserObject label='' umlType='Connector (kind=assembly)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='9'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;' edge='1' parent='4' source='5' target='6'><mxGeometry relative='1' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Komponente mit Ports und Interfaces",
+    "w": 280,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«component»&lt;br&gt;&lt;b&gt;Component&lt;/b&gt;' umlType='Component + Port + Interfaces' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4 / 11.3.4' tooltip='Black-Box: Ports auf dem Rand mit Lollipop (bereitgestellt) und Socket (benötigt).' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry x='60' width='160' height='80' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Component icon' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponentensymbol (optional)' id='3'><mxCell style='shape=component;jettyWidth=8;jettyHeight=4;html=1;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='16' height='18' relative='1' as='geometry'><mxPoint x='-24' y='6' as='offset'/></mxGeometry></mxCell></UserObject><UserObject label='' umlType='Port' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' id='4'><mxCell style='rounded=0;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='2'><mxGeometry y='0.5' width='14' height='14' relative='1' as='geometry'><mxPoint x='-7' y='-7' as='offset'/></mxGeometry></mxCell></UserObject><UserObject label='' umlType='Port' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' id='5'><mxCell style='rounded=0;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='2'><mxGeometry x='1' y='0.5' width='14' height='14' relative='1' as='geometry'><mxPoint x='-7' y='-7' as='offset'/></mxGeometry></mxCell></UserObject><UserObject label='' umlType='InterfaceRealization (ball)' umlSpec='UML 2.5.1 (formal/17-12-05) §10.4.4' id='6'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=oval;endFill=0;endSize=14;' edge='1' parent='1' source='4'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='40' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='7' value='IProvided' style='edgeLabel;resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='6'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='0' y='-10' as='offset'/></mxGeometry></mxCell><UserObject label='' umlType='Usage (socket)' umlSpec='UML 2.5.1 (formal/17-12-05) §10.4.4' id='8'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=halfCircle;endFill=0;endSize=8;' edge='1' parent='1' source='5'><mxGeometry relative='1' as='geometry'><mxPoint x='280' y='40' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='9' value='IRequired' style='edgeLabel;resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='8'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='0' y='-12' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Port",
+    "w": 14,
+    "h": 14,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='port' umlType='Port' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' tooltip='Port (kleines Quadrat) – auf den Komponentenrand legen.' id='2'><mxCell style='rounded=0;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='1'><mxGeometry width='14' height='14' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Bereitgestelltes Interface (Lollipop)",
+    "w": 80,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='InterfaceRealization (ball)' umlSpec='UML 2.5.1 (formal/17-12-05) §10.4.4 / 11.6.4' tooltip='Lollipop: Linie mit Kreis, ragt aus der Komponente bzw. dem Port.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=oval;endFill=0;endSize=14;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='80' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='IProvided' style='edgeLabel;resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='0' y='-10' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Benötigtes Interface (Socket)",
+    "w": 80,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Usage (socket)' umlSpec='UML 2.5.1 (formal/17-12-05) §10.4.4 / 11.6.4' tooltip='Socket: Linie mit Halbkreis, ragt aus der Komponente bzw. dem Port.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=halfCircle;endFill=0;endSize=8;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='80' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='IRequired' style='edgeLabel;resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='0' y='-12' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Assembly-Connector (Ball-and-Socket)",
+    "w": 160,
+    "h": 20,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='IName' umlType='Connector (kind=assembly)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4 / 11.6.4' tooltip='Assembly-Connector: Ball eines bereitgestellten Interfaces steckt im Socket eines benötigten Interfaces; Interfacename daneben.' id='2'><mxCell style='shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;verticalAlign=top;labelPosition=center;align=center;points=[[0,0.5],[1,0.5]];aspect=fixed;' vertex='1' parent='1'><mxGeometry x='70' width='20' height='20' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='ConnectorEnd (provided side)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='3'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;' edge='1' parent='1' target='2'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='10' as='sourcePoint'/></mxGeometry></mxCell></UserObject><UserObject label='' umlType='ConnectorEnd (required side)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='4'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='160' y='10' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Assembly-Connector (Linie)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Connector (kind=assembly)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' tooltip='Assembly-Connector als einfache Linie zwischen Ports/Parts.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Delegation-Connector",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Connector (kind=delegation)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4 / 11.6.4' tooltip='Delegation-Connector: Linie vom delegierenden Port am Rand zum bearbeitenden Part bzw. dessen Port (darf auch am Ball/Socket enden).' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Interface (Classifier)",
+    "w": 180,
+    "h": 64,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«interface»&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;' umlType='Interface' umlSpec='UML 2.5.1 (formal/17-12-05) §10.4.4' tooltip='Interface als Rechteck mit «interface».' id='2'><mxCell style='swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='180' height='64' as='geometry'/></mxCell></UserObject><mxCell id='3' value='+ operation() : Type' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='42' width='180' height='22' as='geometry'/></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Interface-Realisierung",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='InterfaceRealization' umlSpec='UML 2.5.1 (formal/17-12-05) §10.4.4' tooltip='Gestrichelte Linie mit hohlem Dreieck von der Komponente zum Interface.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=14;dashed=1;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Usage «use» (benötigtes Interface)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«use»' umlType='Usage' umlSpec='UML 2.5.1 (formal/17-12-05) §7.7.4 / 10.4.4' tooltip='Benötigtes Interface in expliziter Notation: «use»-Abhängigkeit zur Interface-Klasse.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;dashed=1;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Komponenten-Realisierung",
+    "w": 1,
+    "h": 100,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='ComponentRealization' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='ComponentRealization: wie Realization (gestrichelt, hohles Dreieck) vom realisierenden Classifier zur Komponente.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=14;dashed=1;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='100' as='sourcePoint'/><mxPoint x='0' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Abhängigkeit",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Dependency' umlSpec='UML 2.5.1 (formal/17-12-05) §7.7.4' tooltip='Allgemeine Abhängigkeit zwischen Komponenten.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;dashed=1;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Subsystem «Subsystem»",
+    "w": 170,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«Subsystem»&lt;br&gt;&lt;b&gt;Subsystem&lt;/b&gt;' umlType='Component «Subsystem» (StandardProfile)' umlSpec='UML 2.5.1 (formal/17-12-05) §22.3' tooltip='Komponente mit dem Standard-Stereotyp «Subsystem» für größere Einheiten.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='170' height='60' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Component icon' umlSpec='UML 2.5.1 (formal/17-12-05) §11.6.4' tooltip='Komponentensymbol (optional)' id='3'><mxCell style='shape=component;jettyWidth=8;jettyHeight=4;html=1;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='16' height='18' relative='1' as='geometry'><mxPoint x='-24' y='6' as='offset'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Klasse (realisierender Classifier)",
+    "w": 120,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Class' umlType='Class' umlSpec='UML 2.5.1 (formal/17-12-05) §11.4.4' tooltip='Klasse, die eine Komponente realisiert.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=1;' vertex='1' parent='1'><mxGeometry width='120' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Artefakt (Manifestation)",
+    "w": 150,
+    "h": 50,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«artifact»&lt;br&gt;&lt;b&gt;artifact.jar&lt;/b&gt;' umlType='Artifact' umlSpec='UML 2.5.1 (formal/17-12-05) §19.3.4' tooltip='Artefakt, das eine Komponente manifestiert.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='150' height='50' as='geometry'/></mxCell></UserObject><mxCell id='3' value='' style='shape=note;size=5;html=1;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='12' height='15' relative='1' as='geometry'><mxPoint x='-20' y='6' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Manifestation «manifest»",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«manifest»' umlType='Manifestation' umlSpec='UML 2.5.1 (formal/17-12-05) §19.3.4' tooltip='Gestrichelter Pfeil vom Artefakt zur manifestierten Komponente mit «manifest».' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;dashed=1;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Diagrammrahmen (cmp)",
+    "w": 360,
+    "h": 220,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;b&gt;cmp&lt;/b&gt; Name' umlType='Diagram frame (heading: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;])' umlSpec='UML 2.5.1 (formal/17-12-05) §Annex A' tooltip='Optionaler Diagrammrahmen. Kopf im Namensfeld (Rechteck mit abgeschnittener Ecke) oben links: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;]; die Art wird fett dargestellt.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-2;width=84;height=24;' vertex='1' parent='1'><mxGeometry width='360' height='220' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar (Comment)",
+    "w": 220,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar: Rechteck mit umgeknickter Ecke; über eine gestrichelte Linie an annotierte Elemente gebunden. Keine Semantik.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Comment::annotatedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Ankerlinie zum annotierten Element' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='30' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar ohne Anker (Comment)",
+    "w": 140,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar ohne Bindung an ein Element.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Ankerlinie (Comment/Constraint)",
+    "w": 120,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Comment::annotatedElement' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Gestrichelte Linie, die einen Kommentar oder Constraint mit dem Element verbindet.' id='2'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='120' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint {…} (Text)",
+    "w": 120,
+    "h": 24,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint als Text in geschweiften Klammern neben oder in der Nähe des eingeschränkten Elements: { [name :] boolean-expression }.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;' vertex='1' parent='1'><mxGeometry width='120' height='24' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint im Notizsymbol",
+    "w": 220,
+    "h": 50,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint im Kommentarsymbol, per gestrichelter Linie an das/die eingeschränkte(n) Element(e) gebunden.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;align=center;verticalAlign=middle;' vertex='1' parent='1'><mxGeometry width='140' height='50' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Constraint::constrainedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='25' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  }
+]]]></mxlibrary>

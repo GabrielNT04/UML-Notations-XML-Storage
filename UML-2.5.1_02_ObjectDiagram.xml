@@ -1,0 +1,122 @@
+<mxlibrary title="UML Objekte"><![CDATA[[
+  {
+    "title": "Objekt (InstanceSpecification) – nur Name",
+    "w": 150,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='object : Class' umlType='InstanceSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='InstanceSpecification: Rechteck mit unterstrichenem Namen &apos;name : Classifier&apos;. Mehrere Classifier durch Komma getrennt.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=4;' vertex='1' parent='1'><mxGeometry width='150' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Objekt mit Slots",
+    "w": 190,
+    "h": 70,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='object : Class' umlType='InstanceSpecification + Slot' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='InstanceSpecification mit Slots: je Zeile &apos;Attribut = Wert&apos; (optional mit Typ: &apos;name : Typ = Wert&apos;).' id='2'><mxCell style='swimlane;fontStyle=4;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='190' height='70' as='geometry'/></mxCell></UserObject><mxCell id='3' value='attribute1 = value' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='26' width='190' height='22' as='geometry'/></mxCell><mxCell id='4' value='attribute2 : Type = 42' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='48' width='190' height='22' as='geometry'/></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Anonymes Objekt",
+    "w": 120,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label=': Class' umlType='InstanceSpecification (anonymous)' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='Anonyme Instanz: nur &apos;: Classifier&apos; unterstrichen.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=4;' vertex='1' parent='1'><mxGeometry width='120' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Objekt ohne Classifier",
+    "w": 120,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='object' umlType='InstanceSpecification (no classifier)' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='Instanz ohne angegebenen Classifier: nur der unterstrichene Name.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=4;' vertex='1' parent='1'><mxGeometry width='120' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Objekt mehrerer Classifier",
+    "w": 180,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='object : ClassA, ClassB' umlType='InstanceSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='Instanz mehrerer Classifier: &apos;name : A, B&apos;.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=4;' vertex='1' parent='1'><mxGeometry width='180' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Wert-Instanz (z.B. String)",
+    "w": 170,
+    "h": 48,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='streetName : String' umlType='InstanceSpecification + specification' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='InstanceSpecification mit Spezifikation des Wertes unter dem Namen, z.B. streetName : String mit \"S. Crown Ct.\".' id='2'><mxCell style='swimlane;fontStyle=4;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='170' height='48' as='geometry'/></mxCell></UserObject><mxCell id='3' value='\"S. Crown Ct.\"' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;align=center;' vertex='1' parent='2'><mxGeometry y='26' width='170' height='22' as='geometry'/></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Objekt mit Konstruktor-Hinweis «create»",
+    "w": 140,
+    "h": 46,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«create»&lt;br&gt;&lt;u&gt;: Car&lt;/u&gt;' umlType='InstanceSpecification (constructor)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.4.4' tooltip='Instanz, die von einem Konstruktor erzeugt wird: Schlüsselwort/Operation über dem Namen.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='140' height='46' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Objekt mit innerer Struktur",
+    "w": 240,
+    "h": 130,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='car : Car' umlType='InstanceSpecification (internal structure)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4 / 9.8.4' tooltip='Instanz eines strukturierten Classifiers: Teile als Instanzen im Struktur-Compartment, verbunden durch Links.' id='2'><mxCell style='swimlane;fontStyle=4;startSize=26;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;container=1;' vertex='1' parent='1'><mxGeometry width='240' height='130' as='geometry'/></mxCell></UserObject><UserObject label='left : Wheel' umlType='InstanceSpecification (Part)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='3'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=4;' vertex='1' parent='2'><mxGeometry x='15' y='50' width='90' height='34' as='geometry'/></mxCell></UserObject><UserObject label='right : Wheel' umlType='InstanceSpecification (Part)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='4'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=4;' vertex='1' parent='2'><mxGeometry x='135' y='50' width='90' height='34' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Link (InstanceSpecification of Connector)' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' id='5'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;' edge='1' parent='2' source='3' target='4'><mxGeometry relative='1' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Link (Instanz einer Assoziation)",
+    "w": 220,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;u&gt;assocName&lt;/u&gt;' umlType='InstanceSpecification (Link)' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='Link: durchgezogene Linie zwischen Instanzen; optional unterstrichener Assoziationsname und Rollennamen an den Enden.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='220' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='role1' style='edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='-1' relative='1' as='geometry'><mxPoint x='4' y='-2' as='offset'/></mxGeometry></mxCell><mxCell id='4' value='role2' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='-2' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Link, navigierbar",
+    "w": 220,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='InstanceSpecification (Link)' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='Link mit Navigationspfeil (übernimmt die Adornments der Assoziation).' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;endArrow=open;endFill=0;endSize=10;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='220' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='role' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='-2' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Link mit Komposition",
+    "w": 220,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='InstanceSpecification (Link)' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='Link einer Kompositionsassoziation (gefüllte Raute am Ganzen).' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;startArrow=diamondThin;startFill=1;startSize=16;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='220' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='part' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='-2' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Slot-Wert als Instanzreferenz",
+    "w": 220,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Slot + InstanceValue (graphical)' umlSpec='UML 2.5.1 (formal/17-12-05) §9.8.4' tooltip='Ein Slot-Wert, der auf eine andere Instanz verweist, kann wie ein Link gezeichnet werden: Pfeil vom besitzenden Objekt, Attributname am Pfeilende.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='220' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='attribute' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='-2' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Klasse (Referenz)",
+    "w": 120,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Class' umlType='Class' umlSpec='UML 2.5.1 (formal/17-12-05) §11.4.4' tooltip='Klasse zur Darstellung von Instanz-Beziehungen.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=1;' vertex='1' parent='1'><mxGeometry width='120' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Abhängigkeit (z.B. «instantiate»)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«instantiate»' umlType='Dependency' umlSpec='UML 2.5.1 (formal/17-12-05) §7.7.4' tooltip='Gestrichelter Pfeil vom Client zum Supplier, optional mit Schlüsselwort.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;dashed=1;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Diagrammrahmen (pkg)",
+    "w": 360,
+    "h": 220,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;b&gt;pkg&lt;/b&gt; Name' umlType='Diagram frame (heading: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;])' umlSpec='UML 2.5.1 (formal/17-12-05) §Annex A' tooltip='Optionaler Diagrammrahmen. Kopf im Namensfeld (Rechteck mit abgeschnittener Ecke) oben links: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;]; die Art wird fett dargestellt.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-2;width=84;height=24;' vertex='1' parent='1'><mxGeometry width='360' height='220' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar (Comment)",
+    "w": 220,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar: Rechteck mit umgeknickter Ecke; über eine gestrichelte Linie an annotierte Elemente gebunden. Keine Semantik.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Comment::annotatedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Ankerlinie zum annotierten Element' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='30' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar ohne Anker (Comment)",
+    "w": 140,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar ohne Bindung an ein Element.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Ankerlinie (Comment/Constraint)",
+    "w": 120,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Comment::annotatedElement' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Gestrichelte Linie, die einen Kommentar oder Constraint mit dem Element verbindet.' id='2'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='120' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint {…} (Text)",
+    "w": 120,
+    "h": 24,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint als Text in geschweiften Klammern neben oder in der Nähe des eingeschränkten Elements: { [name :] boolean-expression }.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;' vertex='1' parent='1'><mxGeometry width='120' height='24' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint im Notizsymbol",
+    "w": 220,
+    "h": 50,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint im Kommentarsymbol, per gestrichelter Linie an das/die eingeschränkte(n) Element(e) gebunden.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;align=center;verticalAlign=middle;' vertex='1' parent='1'><mxGeometry width='140' height='50' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Constraint::constrainedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='25' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  }
+]]]></mxlibrary>

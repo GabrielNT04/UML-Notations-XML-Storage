@@ -1,0 +1,164 @@
+<mxlibrary title="UML Profile"><![CDATA[[
+  {
+    "title": "Profil «profile»",
+    "w": 280,
+    "h": 170,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«profile»&lt;br&gt;&lt;b&gt;Profile&lt;/b&gt;' umlType='Profile' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Profil: Paketsymbol mit Schlüsselwort «profile». Container für Stereotypen.' id='2'><mxCell style='shape=folder;tabWidth=80;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;labelInHeader=1;boundedLbl=1;align=left;spacingLeft=6;verticalAlign=top;container=1;collapsible=0;recursiveResize=0;tabWidth=100;tabHeight=34;align=center;spacingLeft=0;' vertex='1' parent='1'><mxGeometry width='280' height='170' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Profil (kompakt)",
+    "w": 150,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«profile»&lt;br&gt;&lt;b&gt;Profile&lt;/b&gt;' umlType='Profile' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Profil ohne gezeigten Inhalt.' id='2'><mxCell style='shape=folder;tabWidth=80;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;boundedLbl=1;' vertex='1' parent='1'><mxGeometry width='150' height='80' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Stereotyp",
+    "w": 200,
+    "h": 86,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«stereotype»&lt;br&gt;&lt;b&gt;Stereotype&lt;/b&gt;' umlType='Stereotype' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Stereotyp: Klassenrechteck mit «stereotype» über dem Namen; Attribute = Tag-Definitionen (Eigenschaften).' id='2'><mxCell style='swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='200' height='86' as='geometry'/></mxCell></UserObject><mxCell id='3' value='tagName : Type [0..1]' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='42' width='200' height='22' as='geometry'/></mxCell><mxCell id='4' value='flag : Boolean = false' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='64' width='200' height='22' as='geometry'/></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Stereotyp mit Icon",
+    "w": 200,
+    "h": 64,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«stereotype»&lt;br&gt;&lt;b&gt;Stereotype&lt;/b&gt;' umlType='Stereotype (icon)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4.1' tooltip='Stereotyp mit zugeordnetem Icon (Image); das Icon kann im Stereotyp-Rechteck oder an Stelle der Standard-Notation angezeigt werden.' id='2'><mxCell style='swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='200' height='64' as='geometry'/></mxCell></UserObject><mxCell id='3' value='tagName : Type' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='42' width='200' height='22' as='geometry'/></mxCell><UserObject label='' umlType='Image (icon)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4.1' tooltip='Platzhalter für das Icon – durch Bild ersetzen' id='4'><mxCell style='ellipse;html=1;fillColor=none;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='14' height='14' relative='1' as='geometry'><mxPoint x='-20' y='6' as='offset'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Abstrakter Stereotyp",
+    "w": 190,
+    "h": 46,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«stereotype»&lt;br&gt;&lt;b&gt;&lt;i&gt;AbstractStereotype&lt;/i&gt;&lt;/b&gt;' umlType='Stereotype {isAbstract}' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Abstrakter Stereotyp: Name kursiv.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='190' height='46' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Metaklasse «metaclass»",
+    "w": 150,
+    "h": 46,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«metaclass»&lt;br&gt;&lt;b&gt;Class&lt;/b&gt;' umlType='Class (metaclass reference)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Referenzierte Metaklasse des UML-Metamodells: Klassenrechteck mit «metaclass».' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='150' height='46' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Extension (Stereotyp → Metaklasse)",
+    "w": 1,
+    "h": 100,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Extension' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Extension: durchgezogene Linie mit gefülltem Dreieck vom Stereotyp zur erweiterten Metaklasse.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=1;endSize=12;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='100' as='sourcePoint'/><mxPoint x='0' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Extension {required}",
+    "w": 1,
+    "h": 100,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{required}' umlType='Extension (isRequired=true)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Benötigte Extension: zusätzlich mit {required} beschriftet; jede Instanz der Metaklasse trägt dann den Stereotyp.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=1;endSize=12;align=left;spacingLeft=4;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='100' as='sourcePoint'/><mxPoint x='0' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Generalisierung (zwischen Stereotypen)",
+    "w": 1,
+    "h": 100,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Generalization' umlSpec='UML 2.5.1 (formal/17-12-05) §9.2.4' tooltip='Generalisierung zwischen Stereotypen (hohles Dreieck).' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=14;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='100' as='sourcePoint'/><mxPoint x='0' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Profilanwendung «apply»",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«apply»' umlType='ProfileApplication' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='ProfileApplication: gestrichelter Pfeil vom Paket zum angewandten Profil mit «apply».' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;dashed=1;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Strikte Profilanwendung «strict»",
+    "w": 170,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«strict»' umlType='ProfileApplication (isStrict=true)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Strikte Profilanwendung (isStrict = true): Schlüsselwort «strict» an Stelle von «apply».' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;dashed=1;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='170' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Metaklassen-Referenz «reference»",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«reference»' umlType='ElementImport (Profile::metaclassReference)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Metaclass Reference: Elementimport aus dem Profil zur Metaklasse, beschriftet «reference».' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;dashed=1;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Metamodell-Referenz «reference»",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«reference»' umlType='PackageImport (Profile::metamodelReference)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Metamodel Reference: Paketimport vom Profil zum Metamodell, beschriftet «reference».' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;dashed=1;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Metamodell «metamodel»",
+    "w": 150,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«metamodel»&lt;br&gt;&lt;b&gt;UML&lt;/b&gt;' umlType='Model «Metamodel»' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4 / 22.3' tooltip='Referenziertes Metamodell (z.B. UML) als Modell/Paket.' id='2'><mxCell style='shape=folder;tabWidth=80;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;boundedLbl=1;folderSymbol=triangle;' vertex='1' parent='1'><mxGeometry width='150' height='80' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Assoziation zwischen Stereotypen",
+    "w": 220,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Association' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Stereotypen können über Assoziationen (auch zu Metaklassen) in Beziehung stehen.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;endArrow=open;endFill=0;endSize=10;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='220' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='role' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='-2' as='offset'/></mxGeometry></mxCell><mxCell id='4' value='0..1' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='2' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Element mit angewandtem Stereotyp",
+    "w": 190,
+    "h": 116,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«Stereotype»&lt;br&gt;&lt;b&gt;StereotypedClass&lt;/b&gt;' umlType='Class + applied Stereotype' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Angewandter Stereotyp: «Name» über dem Elementnamen; Tag-Werte im Compartment «Stereotype» oder als {tag = value}.' id='2'><mxCell style='swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='190' height='116' as='geometry'/></mxCell></UserObject><mxCell id='3' value='«Stereotype»' style='text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;' vertex='1' parent='2'><mxGeometry y='42' width='190' height='22' as='geometry'/></mxCell><mxCell id='4' value='tagName = value' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='64' width='190' height='22' as='geometry'/></mxCell><mxCell id='5' value='' style='line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;' vertex='1' parent='2'><mxGeometry y='86' width='190' height='8' as='geometry'/></mxCell><mxCell id='6' value='+ attribute : Type' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='94' width='190' height='22' as='geometry'/></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Tag-Werte in Klammern",
+    "w": 190,
+    "h": 62,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«Stereotype»&lt;br&gt;{tag1 = value; tag2 = 10}&lt;br&gt;&lt;b&gt;Class&lt;/b&gt;' umlType='Class + applied Stereotype (tag values)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Tag-Werte über dem Namen: Paare durch Semikolon getrennt und in geschweifte Klammern gefasst.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='190' height='62' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Tag-Werte in Notiz",
+    "w": 220,
+    "h": 64,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«Stereotype»&lt;br&gt;tag1 = value&lt;br&gt;tag2 = 10' umlType='Comment (stereotype values)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4' tooltip='Tag-Werte im Kommentarsymbol, an das Element gebunden: «Stereotype» tag = value.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='64' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Comment::annotatedElement' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='32' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Element mit Stereotyp-Icon",
+    "w": 150,
+    "h": 46,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;b&gt;Class&lt;/b&gt;' umlType='Class + applied Stereotype (icon)' umlSpec='UML 2.5.1 (formal/17-12-05) §12.3.4.1' tooltip='Statt des Schlüsselworts kann das Icon des Stereotyps im Elementsymbol dargestellt werden.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='150' height='46' as='geometry'/></mxCell></UserObject><mxCell id='3' value='' style='ellipse;html=1;fillColor=none;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='14' height='14' relative='1' as='geometry'><mxPoint x='-20' y='6' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Enumeration (Tag-Typ)",
+    "w": 160,
+    "h": 86,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«enumeration»&lt;br&gt;&lt;b&gt;Kind&lt;/b&gt;' umlType='Enumeration' umlSpec='UML 2.5.1 (formal/17-12-05) §10.2.4' tooltip='Enumeration als Typ für Tag-Definitionen.' id='2'><mxCell style='swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='160' height='86' as='geometry'/></mxCell></UserObject><mxCell id='3' value='VALUE_A' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='42' width='160' height='22' as='geometry'/></mxCell><mxCell id='4' value='VALUE_B' style='text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;' vertex='1' parent='2'><mxGeometry y='64' width='160' height='22' as='geometry'/></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Paket (Profilanwender)",
+    "w": 140,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Package' umlType='Package' umlSpec='UML 2.5.1 (formal/17-12-05) §12.2.4' tooltip='Paket, auf das ein Profil angewandt wird.' id='2'><mxCell style='shape=folder;tabWidth=80;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;fontStyle=1;boundedLbl=1;' vertex='1' parent='1'><mxGeometry width='140' height='80' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Diagrammrahmen (pkg)",
+    "w": 360,
+    "h": 220,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;b&gt;pkg&lt;/b&gt; Profile' umlType='Diagram frame (heading: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;])' umlSpec='UML 2.5.1 (formal/17-12-05) §Annex A' tooltip='Optionaler Diagrammrahmen. Kopf im Namensfeld (Rechteck mit abgeschnittener Ecke) oben links: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;]; die Art wird fett dargestellt.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-2;width=108;height=24;' vertex='1' parent='1'><mxGeometry width='360' height='220' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar (Comment)",
+    "w": 220,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar: Rechteck mit umgeknickter Ecke; über eine gestrichelte Linie an annotierte Elemente gebunden. Keine Semantik.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Comment::annotatedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Ankerlinie zum annotierten Element' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='30' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar ohne Anker (Comment)",
+    "w": 140,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar ohne Bindung an ein Element.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Ankerlinie (Comment/Constraint)",
+    "w": 120,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Comment::annotatedElement' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Gestrichelte Linie, die einen Kommentar oder Constraint mit dem Element verbindet.' id='2'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='120' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint {…} (Text)",
+    "w": 120,
+    "h": 24,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint als Text in geschweiften Klammern neben oder in der Nähe des eingeschränkten Elements: { [name :] boolean-expression }.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;' vertex='1' parent='1'><mxGeometry width='120' height='24' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint im Notizsymbol",
+    "w": 220,
+    "h": 50,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint im Kommentarsymbol, per gestrichelter Linie an das/die eingeschränkte(n) Element(e) gebunden.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;align=center;verticalAlign=middle;' vertex='1' parent='1'><mxGeometry width='140' height='50' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Constraint::constrainedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='25' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  }
+]]]></mxlibrary>

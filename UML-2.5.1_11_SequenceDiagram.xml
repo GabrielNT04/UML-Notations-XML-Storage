@@ -1,0 +1,290 @@
+<mxlibrary title="UML Sequenz"><![CDATA[[
+  {
+    "title": "Interaktionsrahmen (sd)",
+    "w": 420,
+    "h": 300,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;b&gt;sd&lt;/b&gt; Interaction' umlType='Interaction (frame)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' tooltip='Optionaler Diagrammrahmen. Kopf im Namensfeld (Rechteck mit abgeschnittener Ecke) oben links: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;]; die Art wird fett dargestellt.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-2;width=132;height=24;' vertex='1' parent='1'><mxGeometry width='420' height='300' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Lebenslinie (Lifeline)",
+    "w": 100,
+    "h": 300,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label=':Class' umlType='Lifeline' umlSpec='UML 2.5.1 (formal/17-12-05) §17.3.4' tooltip='Lifeline: Rechteck (Kopf) mit gestrichelter senkrechter Linie. Kopfbeschriftung: name [ &apos;[&apos; selector &apos;]&apos; ] [ : class_name ] [ decomposition ] | self.' id='2'><mxCell style='shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=40;newEdgeStyle={\"edgeStyle\":\"sequenceEdgeStyle\",\"libavoidRouting\":0,\"curved\":0,\"rounded\":0};' vertex='1' parent='1'><mxGeometry width='100' height='300' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Lebenslinie mit Selektor",
+    "w": 100,
+    "h": 300,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='s[k] : B' umlType='Lifeline (selector)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.3.4' tooltip='Lifeline für ein Element einer mehrwertigen Property: name[selector] : Type.' id='2'><mxCell style='shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=40;newEdgeStyle={\"edgeStyle\":\"sequenceEdgeStyle\",\"libavoidRouting\":0,\"curved\":0,\"rounded\":0};' vertex='1' parent='1'><mxGeometry width='100' height='300' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Lebenslinie mit Dekomposition (ref)",
+    "w": 140,
+    "h": 300,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='ac : ACSystem&lt;br&gt;ref AC_UserAccess' umlType='Lifeline (decomposedAs)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.3.4' tooltip='Zerlegte Lifeline: &apos;ref InteractionName&apos; im Kopf verweist auf die Dekomposition.' id='2'><mxCell style='shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=40;newEdgeStyle={\"edgeStyle\":\"sequenceEdgeStyle\",\"libavoidRouting\":0,\"curved\":0,\"rounded\":0};size=46;' vertex='1' parent='1'><mxGeometry width='140' height='300' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Lebenslinie (Akteur)",
+    "w": 30,
+    "h": 300,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label=':Actor' umlType='Lifeline (represents Actor)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.3.4' tooltip='Lifeline, deren ConnectableElement von einem Actor typisiert ist: Strichmännchen als Kopf.' id='2'><mxCell style='shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=40;newEdgeStyle={\"edgeStyle\":\"sequenceEdgeStyle\",\"libavoidRouting\":0,\"curved\":0,\"rounded\":0};participant=umlActor;verticalLabelPosition=top;verticalAlign=bottom;labelPosition=center;align=center;' vertex='1' parent='1'><mxGeometry width='30' height='300' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Lebenslinie mit Ausführung",
+    "w": 100,
+    "h": 300,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label=':Class' umlType='Lifeline + ExecutionSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §17.3.4 / 17.2.4' tooltip='Lifeline mit ExecutionSpecification (schmales Rechteck) als Kind – bewegt sich mit der Lifeline.' id='2'><mxCell style='shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=40;newEdgeStyle={\"edgeStyle\":\"sequenceEdgeStyle\",\"libavoidRouting\":0,\"curved\":0,\"rounded\":0};' vertex='1' parent='1'><mxGeometry width='100' height='300' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='ExecutionSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' id='3'><mxCell style='html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={\"edgeStyle\":\"sequenceEdgeStyle\",\"libavoidRouting\":0,\"curved\":0,\"rounded\":0};' vertex='1' parent='2'><mxGeometry x='45' y='70' width='10' height='120' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Ausführung (ExecutionSpecification)",
+    "w": 10,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='ExecutionSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' tooltip='ExecutionSpecification: schmales Rechteck auf der Lebenslinie (auf die Lifeline ziehen).' id='2'><mxCell style='html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={\"edgeStyle\":\"sequenceEdgeStyle\",\"libavoidRouting\":0,\"curved\":0,\"rounded\":0};' vertex='1' parent='1'><mxGeometry width='10' height='80' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Ausführung mit Aktionsbeschriftung",
+    "w": 60,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='action' umlType='ActionExecutionSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' tooltip='Alternative: breiteres beschriftetes Rechteck, dessen Text die Aktion bezeichnet.' id='2'><mxCell style='html=1;whiteSpace=wrap;fontSize=10;perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;' vertex='1' parent='1'><mxGeometry width='60' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Synchroner Aufruf (synchCall)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='operation(arg)' umlType='Message (messageSort=synchCall)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='Synchrone Nachricht: durchgezogene Linie mit gefüllter Pfeilspitze. Label: name ( [argumente] ).' id='2'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;endArrow=block;endFill=1;endSize=10;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Asynchrone Nachricht (asynchCall/Signal)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='signal(arg)' umlType='Message (messageSort=asynchCall|asynchSignal)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='Asynchrone Nachricht: durchgezogene Linie mit offener Pfeilspitze.' id='2'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;endArrow=open;endFill=0;endSize=10;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Antwort (reply)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='x = operation : value' umlType='Message (messageSort=reply)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='Antwortnachricht: gestrichelte Linie mit offener (oder gefüllter) Pfeilspitze. Label: [ziel =] name [(out-args)] [: wert].' id='2'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;endArrow=open;endFill=0;endSize=10;dashed=1;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='160' y='0' as='sourcePoint'/><mxPoint x='0' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Erzeugung (createMessage)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«create»' umlType='Message (messageSort=createMessage)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='Erzeugungsnachricht: gestrichelte Linie mit offener Pfeilspitze zum Kopf der neuen Lifeline.' id='2'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;endArrow=open;endFill=0;endSize=10;dashed=1;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Erzeugung mit neuer Lebenslinie",
+    "w": 260,
+    "h": 220,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label=':New' umlType='Message (createMessage) + Lifeline' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='Die neue Lifeline beginnt auf Höhe der Erzeugungsnachricht.' id='2'><mxCell style='shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=40;newEdgeStyle={\"edgeStyle\":\"sequenceEdgeStyle\",\"libavoidRouting\":0,\"curved\":0,\"rounded\":0};' vertex='1' parent='1'><mxGeometry x='160' width='100' height='220' as='geometry'/></mxCell></UserObject><UserObject label='«create»' umlType='Message (createMessage)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' id='3'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;endSize=10;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=20;entryPerimeter=0;' edge='1' parent='1' target='2'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='20' as='sourcePoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Löschung (deleteMessage + Destruction)",
+    "w": 170,
+    "h": 20,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='DestructionOccurrenceSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' id='2'><mxCell style='shape=umlDestroy;html=1;strokeWidth=2;targetShapes=umlLifeline;aspect=fixed;' vertex='1' parent='1'><mxGeometry x='150' width='20' height='20' as='geometry'/></mxCell></UserObject><UserObject label='«destroy»' umlType='Message (deleteMessage) + DestructionOccurrenceSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4 / 17.4.4' tooltip='Löschnachricht endet in einer DestructionOccurrenceSpecification (X am Ende der Lifeline).' id='3'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;endSize=10;' edge='1' parent='1' target='2'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='10' as='sourcePoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Zerstörung (Destruction X)",
+    "w": 24,
+    "h": 24,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='DestructionOccurrenceSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='DestructionOccurrenceSpecification: X am unteren Ende der Lifeline.' id='2'><mxCell style='shape=umlDestroy;html=1;strokeWidth=2;targetShapes=umlLifeline;aspect=fixed;' vertex='1' parent='1'><mxGeometry width='24' height='24' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Verlorene Nachricht (lost)",
+    "w": 160,
+    "h": 10,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='lost message end' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' id='2'><mxCell style='ellipse;html=1;fillColor=strokeColor;aspect=fixed;' vertex='1' parent='1'><mxGeometry x='150' width='10' height='10' as='geometry'/></mxCell></UserObject><UserObject label='lost' umlType='Message (messageKind=lost)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='Lost Message: kleiner schwarzer Kreis am Pfeilende.' id='3'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;endSize=10;' edge='1' parent='1' target='2'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='5' as='sourcePoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Gefundene Nachricht (found)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='found' umlType='Message (messageKind=found)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='Found Message: kleiner schwarzer Kreis am Anfang der Nachricht.' id='2'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;endArrow=open;endFill=0;endSize=10;startArrow=oval;startFill=1;startSize=8;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Selbstnachricht",
+    "w": 40,
+    "h": 30,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='self()' umlType='Message (same Lifeline)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='Nachricht an dieselbe Lifeline: Linie verlässt die Lifeline und kehrt tiefer zurück.' id='2'><mxCell style='html=1;align=left;spacingLeft=4;labelBackgroundColor=none;rounded=0;endArrow=block;endFill=1;endSize=10;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='0' y='30' as='targetPoint'/><Array as='points'><mxPoint x='40' y='0'/><mxPoint x='40' y='30'/></Array></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Aufruf mit Antwort (Paar)",
+    "w": 160,
+    "h": 70,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='ExecutionSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' id='2'><mxCell style='html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={\"edgeStyle\":\"sequenceEdgeStyle\",\"libavoidRouting\":0,\"curved\":0,\"rounded\":0};' vertex='1' parent='1'><mxGeometry x='150' width='10' height='70' as='geometry'/></mxCell></UserObject><UserObject label='operation()' umlType='Message (synchCall + reply)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' tooltip='Synchroner Aufruf auf eine Ausführung und zugehörige Antwort.' id='3'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;endArrow=block;endFill=1;endSize=10;entryX=0;entryY=0;entryDx=0;entryDy=5;' edge='1' parent='1' target='2'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='5' as='sourcePoint'/></mxGeometry></mxCell></UserObject><UserObject label='result' umlType='Message (reply)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4' id='4'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;endArrow=open;endFill=0;endSize=10;dashed=1;exitX=0;exitY=1;exitDx=0;exitDy=-5;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='65' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Nachricht über Gate",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='m()' umlType='Message + Gate' umlSpec='UML 2.5.1 (formal/17-12-05) §17.4.4 / 17.6.4' tooltip='Gate: Nachrichtenende auf dem Rahmen einer Interaktion/eines Fragments; die Nachricht beginnt bzw. endet am Rahmen (formales Gate).' id='2'><mxCell style='html=1;verticalAlign=bottom;labelBackgroundColor=none;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;endArrow=open;endFill=0;endSize=10;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Allgemeine Ordnung (GeneralOrdering)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='GeneralOrdering' umlSpec='UML 2.5.1 (formal/17-12-05) §17.5.4' tooltip='GeneralOrdering: gepunktete Linie mit Pfeilspitze in der Mitte zwischen zwei Occurrences.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;dashed=1;dashPattern=1 3;strokeWidth=1.5;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='▶' style='edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;fontSize=12;connectable=0;' vertex='1' parent='2'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment alt",
+    "w": 300,
+    "h": 160,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='alt' umlType='CombinedFragment (interactionOperator=alt)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Alternativen: genau ein Operand mit wahrem Guard wird ausgeführt; Operanden durch gestrichelte Linien getrennt. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=51;' vertex='1' parent='1'><mxGeometry width='300' height='160' as='geometry'/></mxCell></UserObject><UserObject label='[condition]' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='70' as='geometry'/></mxCell></UserObject><UserObject label='[else]' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='4'><mxCell style='shape=partialRectangle;top=1;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;dashed=1;dashPattern=6 4;' vertex='1' parent='2'><mxGeometry y='90' width='300' height='70' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment opt",
+    "w": 300,
+    "h": 110,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='opt' umlType='CombinedFragment (interactionOperator=opt)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Option: Operand wird nur ausgeführt, wenn der Guard wahr ist. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=51;' vertex='1' parent='1'><mxGeometry width='300' height='110' as='geometry'/></mxCell></UserObject><UserObject label='[condition]' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment loop",
+    "w": 300,
+    "h": 110,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='loop(0, *)' umlType='CombinedFragment (interactionOperator=loop)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Schleife: loop[(min[, max])] mit optionalem Guard. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=114;' vertex='1' parent='1'><mxGeometry width='300' height='110' as='geometry'/></mxCell></UserObject><UserObject label='[condition]' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment break",
+    "w": 300,
+    "h": 110,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='break' umlType='CombinedFragment (interactionOperator=break)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Break: bei wahrem Guard wird der Operand statt des Rests des umgebenden Fragments ausgeführt. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=69;' vertex='1' parent='1'><mxGeometry width='300' height='110' as='geometry'/></mxCell></UserObject><UserObject label='[condition]' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment par",
+    "w": 300,
+    "h": 160,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='par' umlType='CombinedFragment (interactionOperator=par)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Parallel: Operanden werden verschränkt (parallel) ausgeführt. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=51;' vertex='1' parent='1'><mxGeometry width='300' height='160' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='70' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='4'><mxCell style='shape=partialRectangle;top=1;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;dashed=1;dashPattern=6 4;' vertex='1' parent='2'><mxGeometry y='90' width='300' height='70' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment strict",
+    "w": 300,
+    "h": 160,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='strict' umlType='CombinedFragment (interactionOperator=strict)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Strikte Sequenz: Operanden in strenger Reihenfolge. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=78;' vertex='1' parent='1'><mxGeometry width='300' height='160' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='70' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='4'><mxCell style='shape=partialRectangle;top=1;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;dashed=1;dashPattern=6 4;' vertex='1' parent='2'><mxGeometry y='90' width='300' height='70' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment seq",
+    "w": 300,
+    "h": 160,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='seq' umlType='CombinedFragment (interactionOperator=seq)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Schwache Sequenz (Default): Reihenfolge nur pro Lifeline. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=51;' vertex='1' parent='1'><mxGeometry width='300' height='160' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='70' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='4'><mxCell style='shape=partialRectangle;top=1;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;dashed=1;dashPattern=6 4;' vertex='1' parent='2'><mxGeometry y='90' width='300' height='70' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment critical",
+    "w": 300,
+    "h": 110,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='critical' umlType='CombinedFragment (interactionOperator=critical)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Kritischer Bereich: Ablauf wird nicht verschränkt. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=96;' vertex='1' parent='1'><mxGeometry width='300' height='110' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment neg",
+    "w": 300,
+    "h": 110,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='neg' umlType='CombinedFragment (interactionOperator=neg)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Negativ: ungültige Abläufe. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=51;' vertex='1' parent='1'><mxGeometry width='300' height='110' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment assert",
+    "w": 300,
+    "h": 110,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='assert' umlType='CombinedFragment (interactionOperator=assert)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Assertion: einzig gültige Fortsetzung. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=78;' vertex='1' parent='1'><mxGeometry width='300' height='110' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment ignore",
+    "w": 300,
+    "h": 110,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='ignore {m1, m2}' umlType='CombinedFragment (interactionOperator=ignore)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Ignore: die genannten Nachrichtentypen werden ignoriert. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=159;' vertex='1' parent='1'><mxGeometry width='300' height='110' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kombiniertes Fragment consider",
+    "w": 300,
+    "h": 110,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='consider {m1, m2}' umlType='CombinedFragment (interactionOperator=consider)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Consider: nur die genannten Nachrichtentypen werden betrachtet. Der Rahmen enthält die Operanden als Stapel; bei Größenänderung wächst der letzte Operand.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;container=0;collapsible=0;fillColor=none;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginTop=20;height=20;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;width=177;' vertex='1' parent='1'><mxGeometry width='300' height='110' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Operand mit optionalem Guard [Bedingung] (InteractionConstraint)' id='3'><mxCell style='shape=partialRectangle;top=0;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;' vertex='1' parent='2'><mxGeometry y='20' width='300' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Interaktionsoperand (Trennlinie + Guard)",
+    "w": 300,
+    "h": 70,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='[condition]' umlType='InteractionOperand' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Weiterer Operand für ein kombiniertes Fragment: auf das Fragment ziehen (Stapel).' id='2'><mxCell style='shape=partialRectangle;top=1;bottom=0;left=0;right=0;fillColor=none;pointerEvents=0;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacingLeft=8;spacingTop=2;connectable=0;dashed=1;dashPattern=6 4;' vertex='1' parent='1'><mxGeometry width='300' height='70' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Interaktionsverwendung (ref)",
+    "w": 260,
+    "h": 70,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='ref' umlType='InteractionUse' umlSpec='UML 2.5.1 (formal/17-12-05) §17.7.4' tooltip='InteractionUse: Rahmen mit &apos;ref&apos; im Namensfeld; im Rumpf [attribut =] Name [(argumente)] [: rückgabewert].' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=40;height=20;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-3;fontStyle=1;container=1;collapsible=0;recursiveResize=1;' vertex='1' parent='1'><mxGeometry width='260' height='70' as='geometry'/></mxCell></UserObject><mxCell id='3' value='InteractionName(args)' style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;' vertex='1' parent='2'><mxGeometry y='20' width='260' height='50' as='geometry'/></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Zustandsinvariante (State Invariant)",
+    "w": 70,
+    "h": 30,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='state' umlType='StateInvariant' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' tooltip='StateInvariant: Zustandssymbol (abgerundet) auf der Lifeline mit Zustand oder Bedingung.' id='2'><mxCell style='rounded=1;arcSize=50;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='70' height='30' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Zustandsinvariante {Constraint}",
+    "w": 80,
+    "h": 24,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{p == 15}' umlType='StateInvariant (constraint)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' tooltip='Alternative: Constraint in geschweiften Klammern auf der Lifeline.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;labelBackgroundColor=default;' vertex='1' parent='1'><mxGeometry width='80' height='24' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Fortsetzung (Continuation)",
+    "w": 200,
+    "h": 30,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Continue' umlType='Continuation' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Continuation: Zustandsähnliches Symbol (stark abgerundet) über eine oder mehrere Lifelines.' id='2'><mxCell style='rounded=1;arcSize=50;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='200' height='30' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Coregion",
+    "w": 20,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='CombinedFragment (par) – coregion' umlSpec='UML 2.5.1 (formal/17-12-05) §17.6.4' tooltip='Coregion: eckige Klammern auf der Lifeline; Reihenfolge der eingeschlossenen Ereignisse ist beliebig (Kurzform eines par-Fragments).' id='2'><mxCell style='shape=mxgraph.sysml.coregion;html=1;' vertex='1' parent='1'><mxGeometry width='20' height='80' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Dauer-Constraint {d..3*d}",
+    "w": 1,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{d..3*d}' umlType='DurationConstraint' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4 / 8.4.4' tooltip='DurationConstraint: senkrechter Doppelpfeil zwischen zwei Zeitpunkten mit Intervall {min..max}.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;startArrow=open;endArrow=open;startSize=8;endSize=8;align=right;spacingRight=4;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='0' y='80' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Dauerbeobachtung (d = duration)",
+    "w": 90,
+    "h": 22,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='d = duration' umlType='DurationObservation' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4 / 8.4.4' tooltip='DurationObservation: &apos;d = duration&apos; an einer Nachricht oder zwischen zwei Zeitpunkten.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;' vertex='1' parent='1'><mxGeometry width='90' height='22' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Zeit-Constraint {t..t+3}",
+    "w": 30,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='TimeConstraint' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4 / 8.4.4' tooltip='TimeConstraint: Intervall in geschweiften Klammern an einem Zeitpunkt, mit kurzer Linie verbunden.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='30' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='{t..t+3}' style='edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='4' y='0' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Zeitbeobachtung (t = now)",
+    "w": 30,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='TimeObservation' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4 / 8.4.4' tooltip='TimeObservation: &apos;t = now&apos; an einem Ereignis, mit kurzer Linie verbunden.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='30' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='t = now' style='edgeLabel;resizable=0;html=1;align=left;verticalAlign=middle;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='4' y='0' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar (Comment)",
+    "w": 220,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar: Rechteck mit umgeknickter Ecke; über eine gestrichelte Linie an annotierte Elemente gebunden. Keine Semantik.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Comment::annotatedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Ankerlinie zum annotierten Element' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='30' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar ohne Anker (Comment)",
+    "w": 140,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar ohne Bindung an ein Element.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Ankerlinie (Comment/Constraint)",
+    "w": 120,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Comment::annotatedElement' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Gestrichelte Linie, die einen Kommentar oder Constraint mit dem Element verbindet.' id='2'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='120' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint {…} (Text)",
+    "w": 120,
+    "h": 24,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint als Text in geschweiften Klammern neben oder in der Nähe des eingeschränkten Elements: { [name :] boolean-expression }.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;' vertex='1' parent='1'><mxGeometry width='120' height='24' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint im Notizsymbol",
+    "w": 220,
+    "h": 50,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint im Kommentarsymbol, per gestrichelter Linie an das/die eingeschränkte(n) Element(e) gebunden.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;align=center;verticalAlign=middle;' vertex='1' parent='1'><mxGeometry width='140' height='50' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Constraint::constrainedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='25' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  }
+]]]></mxlibrary>

@@ -1,0 +1,146 @@
+<mxlibrary title="UML Zeitverlauf"><![CDATA[[
+  {
+    "title": "Interaktionsrahmen (sd)",
+    "w": 460,
+    "h": 260,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;b&gt;sd&lt;/b&gt; Interaction' umlType='Interaction (frame)' umlSpec='UML 2.5.1 (formal/17-12-05) §Annex A' tooltip='Optionaler Diagrammrahmen. Kopf im Namensfeld (Rechteck mit abgeschnittener Ecke) oben links: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;]; die Art wird fett dargestellt.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-2;width=132;height=24;' vertex='1' parent='1'><mxGeometry width='460' height='260' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Lebenslinie mit Zustandsverlauf",
+    "w": 440,
+    "h": 140,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label=':Lifeline' umlType='Lifeline + state/condition timeline' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' tooltip='Zustands-/Bedingungs-Zeitlinie: Lifeline-Band mit gedrehtem Namen links, Zuständen auf der senkrechten Achse und Zeitverlauf als Linienzug (Wegpunkte verschiebbar).' id='2'><mxCell style='swimlane;horizontal=0;startSize=26;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;container=1;fontStyle=0;' vertex='1' parent='1'><mxGeometry width='440' height='140' as='geometry'/></mxCell></UserObject><UserObject label='Idle' umlType='StateInvariant (state)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' id='3'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;spacingRight=4;fontSize=11;' vertex='1' parent='2'><mxGeometry x='30' y='100' width='70' height='20' as='geometry'/></mxCell></UserObject><UserObject label='WaitCard' umlType='StateInvariant (state)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' id='4'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;spacingRight=4;fontSize=11;' vertex='1' parent='2'><mxGeometry x='30' y='60' width='70' height='20' as='geometry'/></mxCell></UserObject><UserObject label='WaitAccess' umlType='StateInvariant (state)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.2.4' id='5'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;spacingRight=4;fontSize=11;' vertex='1' parent='2'><mxGeometry x='30' y='20' width='70' height='20' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='State/condition timeline' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' id='6'><mxCell style='html=1;rounded=0;endArrow=none;startArrow=none;strokeWidth=2;' edge='1' parent='2'><mxGeometry relative='1' as='geometry'><mxPoint x='110' y='110' as='sourcePoint'/><mxPoint x='430' y='30' as='targetPoint'/><Array as='points'><mxPoint x='200' y='110'/><mxPoint x='200' y='70'/><mxPoint x='330' y='70'/><mxPoint x='330' y='30'/></Array></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Zustandsverlauf (Linienzug)",
+    "w": 300,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='State/condition timeline' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' tooltip='Zeitlinie allein: orthogonaler Linienzug; Stufen markieren Zustandswechsel (Wegpunkte ziehen).' id='2'><mxCell style='html=1;rounded=0;endArrow=none;startArrow=none;strokeWidth=2;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='60' as='sourcePoint'/><mxPoint x='300' y='0' as='targetPoint'/><Array as='points'><mxPoint x='100' y='60'/><mxPoint x='100' y='30'/><mxPoint x='200' y='30'/><mxPoint x='200' y='0'/></Array></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Lebenslinie (Band)",
+    "w": 440,
+    "h": 90,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='instance' umlType='Lifeline' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1 / 17.3.4' tooltip='Leeres Lifeline-Band (Name gedreht im Kopf links). Container für Zustände und Zeitlinie.' id='2'><mxCell style='swimlane;horizontal=0;startSize=26;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;container=1;fontStyle=0;' vertex='1' parent='1'><mxGeometry width='440' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Zwei Lebenslinien im Rahmen",
+    "w": 480,
+    "h": 230,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;b&gt;sd&lt;/b&gt; Interaction' umlType='Interaction + Lifelines' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' tooltip='Interaktionsrahmen mit zwei übereinanderliegenden Lifeline-Bändern.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-2;width=120;height=24;' vertex='1' parent='1'><mxGeometry width='480' height='230' as='geometry'/></mxCell></UserObject><UserObject label='instance 1' umlType='Lifeline' umlSpec='UML 2.5.1 (formal/17-12-05) §17.3.4' id='3'><mxCell style='swimlane;horizontal=0;startSize=26;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;container=1;fontStyle=0;' vertex='1' parent='2'><mxGeometry x='10' y='34' width='460' height='90' as='geometry'/></mxCell></UserObject><UserObject label='instance 2' umlType='Lifeline' umlSpec='UML 2.5.1 (formal/17-12-05) §17.3.4' id='4'><mxCell style='swimlane;horizontal=0;startSize=26;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;container=1;fontStyle=0;' vertex='1' parent='2'><mxGeometry x='10' y='128' width='460' height='90' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Werteverlauf (General value lifeline)",
+    "w": 440,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label=':Lifeline' umlType='Lifeline (general value lifeline)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' tooltip='Allgemeiner Werteverlauf: Werte als Text in Segmenten; Kreuzungen markieren Wertänderungen.' id='2'><mxCell style='swimlane;horizontal=0;startSize=26;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;container=1;fontStyle=0;' vertex='1' parent='1'><mxGeometry width='440' height='60' as='geometry'/></mxCell></UserObject><UserObject label='x\"FFFF\"' umlType='value segment (StateInvariant)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' id='3'><mxCell style='shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;size=8;html=1;whiteSpace=wrap;fontSize=11;' vertex='1' parent='2'><mxGeometry x='40' y='15' width='130' height='30' as='geometry'/></mxCell></UserObject><UserObject label='x\"00FF\"' umlType='value segment (StateInvariant)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' id='4'><mxCell style='shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;size=8;html=1;whiteSpace=wrap;fontSize=11;' vertex='1' parent='2'><mxGeometry x='170' y='15' width='130' height='30' as='geometry'/></mxCell></UserObject><UserObject label='x\"0000\"' umlType='value segment (StateInvariant)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' id='5'><mxCell style='shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;size=8;html=1;whiteSpace=wrap;fontSize=11;' vertex='1' parent='2'><mxGeometry x='300' y='15' width='120' height='30' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Wertsegment",
+    "w": 130,
+    "h": 30,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='x\"FFFF\"' umlType='value segment (general value lifeline)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' tooltip='Einzelnes Wertsegment mit Kreuzungs-Enden; mehrere aneinanderreihen.' id='2'><mxCell style='shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;size=8;html=1;whiteSpace=wrap;fontSize=11;' vertex='1' parent='1'><mxGeometry width='130' height='30' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Nachricht asynchron (↓)",
+    "w": 1,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='evAcquire(void)' umlType='Message (asynch)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1 / 17.4.4' tooltip='Nachricht zwischen Zeitlinien verschiedener Lifelines: offene Pfeilspitze.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;endSize=10;align=left;spacingLeft=4;verticalAlign=middle;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='0' y='80' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Nachricht synchron (↓)",
+    "w": 1,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='doIt(w:int)' umlType='Message (synchCall)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1 / 17.4.4' tooltip='Synchroner Aufruf: gefüllte Pfeilspitze.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;endSize=10;align=left;spacingLeft=4;verticalAlign=middle;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='0' y='80' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Antwort (↓, gestrichelt)",
+    "w": 1,
+    "h": 80,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='reply' umlType='Message (reply)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1 / 17.4.4' tooltip='Antwort: gestrichelte Linie.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;endSize=10;dashed=1;align=left;spacingLeft=4;verticalAlign=middle;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='0' y='80' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Nachrichten-Label (Paar)",
+    "w": 220,
+    "h": 62,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='mymsglab' umlType='MessageLabel (notational shorthand)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' tooltip='Message Labels: eine Nachricht wird unterbrochen und an zwei gleichnamigen Labels fortgesetzt (vermeidet lange, kreuzende Linien).' id='2'><mxCell style='rounded=1;arcSize=50;html=1;whiteSpace=wrap;fontSize=11;' vertex='1' parent='1'><mxGeometry width='80' height='22' as='geometry'/></mxCell></UserObject><UserObject label='mymsglab' umlType='MessageLabel' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' id='3'><mxCell style='rounded=1;arcSize=50;html=1;whiteSpace=wrap;fontSize=11;' vertex='1' parent='1'><mxGeometry x='140' y='40' width='80' height='22' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Message (to label)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' id='4'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;' edge='1' parent='1' target='2'><mxGeometry relative='1' as='geometry'><mxPoint x='30' y='50' as='sourcePoint'/></mxGeometry></mxCell></UserObject><UserObject label='' umlType='Message (from label)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' id='5'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=8;' edge='1' parent='1' source='3'><mxGeometry relative='1' as='geometry'><mxPoint x='200' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Dauer-Constraint {d..3*d}",
+    "w": 100,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{d..3*d}' umlType='DurationConstraint' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1 / 8.4.4' tooltip='DurationConstraint: Bemaßung zwischen zwei Zeitpunkten mit Intervall {min..max}.' id='2'><mxCell style='shape=dimension;html=1;whiteSpace=wrap;align=center;verticalAlign=bottom;spacingBottom=6;labelBackgroundColor=none;points=[];' vertex='1' parent='1'><mxGeometry width='100' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Zeit-Constraint {t..t+3}",
+    "w": 70,
+    "h": 22,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{t..t+3}' umlType='TimeConstraint' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1 / 8.4.4' tooltip='TimeConstraint: Intervall in geschweiften Klammern an einem Zeitpunkt.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;' vertex='1' parent='1'><mxGeometry width='70' height='22' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Zeitbeobachtung (t = now)",
+    "w": 70,
+    "h": 22,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='t = now' umlType='TimeObservation' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1 / 8.4.4' tooltip='TimeObservation: &apos;t = now&apos; an einem Ereignis.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;' vertex='1' parent='1'><mxGeometry width='70' height='22' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Zeitlineal (Timing ruler)",
+    "w": 300,
+    "h": 34,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Timing ruler (tick marks)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' tooltip='Zeitlineal mit Teilstrichen und Teilstrich-Werten unterhalb der Lifelines. Gruppe – Größenänderung skaliert die Abstände.' id='2'><mxCell style='group;html=1;' vertex='1' parent='1'><mxGeometry width='300' height='34' as='geometry'/></mxCell></UserObject><mxCell id='3' value='' style='line;html=1;strokeWidth=1;' vertex='1' parent='2'><mxGeometry width='300' height='2' as='geometry'/></mxCell><mxCell id='4' value='' style='line;direction=south;html=1;strokeWidth=1;' vertex='1' parent='2'><mxGeometry x='10' width='2' height='10' as='geometry'/></mxCell><mxCell id='5' value='0' style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=11;' vertex='1' parent='2'><mxGeometry x='-5' y='12' width='32' height='20' as='geometry'/></mxCell><mxCell id='6' value='' style='line;direction=south;html=1;strokeWidth=1;' vertex='1' parent='2'><mxGeometry x='66' width='2' height='10' as='geometry'/></mxCell><mxCell id='7' value='1' style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=11;' vertex='1' parent='2'><mxGeometry x='51' y='12' width='32' height='20' as='geometry'/></mxCell><mxCell id='8' value='' style='line;direction=south;html=1;strokeWidth=1;' vertex='1' parent='2'><mxGeometry x='122' width='2' height='10' as='geometry'/></mxCell><mxCell id='9' value='2' style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=11;' vertex='1' parent='2'><mxGeometry x='107' y='12' width='32' height='20' as='geometry'/></mxCell><mxCell id='10' value='' style='line;direction=south;html=1;strokeWidth=1;' vertex='1' parent='2'><mxGeometry x='178' width='2' height='10' as='geometry'/></mxCell><mxCell id='11' value='3' style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=11;' vertex='1' parent='2'><mxGeometry x='163' y='12' width='32' height='20' as='geometry'/></mxCell><mxCell id='12' value='' style='line;direction=south;html=1;strokeWidth=1;' vertex='1' parent='2'><mxGeometry x='234' width='2' height='10' as='geometry'/></mxCell><mxCell id='13' value='4' style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=11;' vertex='1' parent='2'><mxGeometry x='219' y='12' width='32' height='20' as='geometry'/></mxCell><mxCell id='14' value='' style='line;direction=south;html=1;strokeWidth=1;' vertex='1' parent='2'><mxGeometry x='290' width='2' height='10' as='geometry'/></mxCell><mxCell id='15' value='t' style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=11;' vertex='1' parent='2'><mxGeometry x='275' y='12' width='32' height='20' as='geometry'/></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Zerstörung (Destruction X)",
+    "w": 22,
+    "h": 22,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='DestructionOccurrenceSpecification' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1 / 17.4.4' tooltip='Ende der Lifeline: X am Ende der Zeitlinie.' id='2'><mxCell style='shape=umlDestroy;html=1;strokeWidth=2;aspect=fixed;' vertex='1' parent='1'><mxGeometry width='22' height='22' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Allgemeine Ordnung (GeneralOrdering)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='GeneralOrdering' umlSpec='UML 2.5.1 (formal/17-12-05) §17.5.4' tooltip='Gepunktete Linie mit Pfeilspitze in der Mitte.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;dashed=1;dashPattern=1 3;strokeWidth=1.5;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='▶' style='edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=none;fontSize=12;connectable=0;' vertex='1' parent='2'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Zustand/Bedingung (Beschriftung)",
+    "w": 70,
+    "h": 20,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='State' umlType='StateInvariant (state label)' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' tooltip='Zustandsname auf der senkrechten Achse einer Lifeline.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;spacingRight=4;fontSize=11;' vertex='1' parent='1'><mxGeometry width='70' height='20' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Ereignis/Stimulus (Beschriftung)",
+    "w": 60,
+    "h": 20,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Code' umlType='event or stimulus label' umlSpec='UML 2.5.1 (formal/17-12-05) §17.11.1' tooltip='Auslösendes Ereignis an einem Zustandswechsel.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;' vertex='1' parent='1'><mxGeometry width='60' height='20' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar (Comment)",
+    "w": 220,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar: Rechteck mit umgeknickter Ecke; über eine gestrichelte Linie an annotierte Elemente gebunden. Keine Semantik.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Comment::annotatedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Ankerlinie zum annotierten Element' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='30' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar ohne Anker (Comment)",
+    "w": 140,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar ohne Bindung an ein Element.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Ankerlinie (Comment/Constraint)",
+    "w": 120,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Comment::annotatedElement' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Gestrichelte Linie, die einen Kommentar oder Constraint mit dem Element verbindet.' id='2'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='120' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint {…} (Text)",
+    "w": 120,
+    "h": 24,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint als Text in geschweiften Klammern neben oder in der Nähe des eingeschränkten Elements: { [name :] boolean-expression }.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;' vertex='1' parent='1'><mxGeometry width='120' height='24' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint im Notizsymbol",
+    "w": 220,
+    "h": 50,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint im Kommentarsymbol, per gestrichelter Linie an das/die eingeschränkte(n) Element(e) gebunden.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;align=center;verticalAlign=middle;' vertex='1' parent='1'><mxGeometry width='140' height='50' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Constraint::constrainedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='25' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  }
+]]]></mxlibrary>

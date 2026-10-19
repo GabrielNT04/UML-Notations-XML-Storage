@@ -1,0 +1,152 @@
+<mxlibrary title="UML Kompositionsstruktur"><![CDATA[[
+  {
+    "title": "Strukturierte Klasse (internal structure)",
+    "w": 300,
+    "h": 160,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Class' umlType='StructuredClassifier (Class)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' tooltip='Strukturierter Classifier: Namens-Compartment und Compartment &apos;internal structure&apos; mit Parts (Properties) und Connectoren. Das Struktur-Compartment ist ein Container.' id='2'><mxCell style='swimlane;fontStyle=1;startSize=28;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;container=1;childLayout=stackLayout;horizontalStack=0;resizeParent=0;resizeLast=1;marginBottom=0;' vertex='1' parent='1'><mxGeometry width='300' height='160' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='internal structure compartment' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' tooltip='Container für Parts/Connectoren' id='3'><mxCell style='rounded=0;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;container=1;collapsible=0;recursiveResize=0;align=center;verticalAlign=top;fontStyle=2;fontSize=11;spacingTop=-2;' vertex='1' parent='2'><mxGeometry y='28' width='300' height='132' as='geometry'/></mxCell></UserObject><UserObject label='p1 : Type1' umlType='Property (part)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='4'><mxCell style='rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;' vertex='1' parent='3'><mxGeometry x='20' y='40' width='100' height='40' as='geometry'/></mxCell></UserObject><UserObject label='p2 : Type2 [0..*]' umlType='Property (part)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='5'><mxCell style='rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;' vertex='1' parent='3'><mxGeometry x='170' y='40' width='110' height='40' as='geometry'/></mxCell></UserObject><UserObject label='c : Assoc' umlType='Connector' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='6'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='3' source='4' target='5'><mxGeometry relative='1' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Part (Property, komposit)",
+    "w": 120,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='name : Type' umlType='Property (aggregation=composite)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' tooltip='Part: durchgezogenes Rechteck &apos;name : Type [Multiplizität]&apos; im Struktur-Compartment.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;' vertex='1' parent='1'><mxGeometry width='120' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Part mit Multiplizität (Ecke)",
+    "w": 130,
+    "h": 46,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='name : Type' umlType='Property (part, multiplicity)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' tooltip='Multiplizität alternativ in der oberen rechten Ecke des Part-Rechtecks.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;' vertex='1' parent='1'><mxGeometry width='130' height='46' as='geometry'/></mxCell></UserObject><mxCell id='3' value='0..*' style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;fontSize=11;part=1;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' width='40' height='16' relative='1' as='geometry'><mxPoint x='-42' y='0' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Referenz-Property (nicht komposit)",
+    "w": 120,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='name : Type' umlType='Property (aggregation=none)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' tooltip='Nicht-komposite Property (Rolle) im Struktur-Compartment: gestricheltes Rechteck.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;dashed=1;' vertex='1' parent='1'><mxGeometry width='120' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Connector (mit Enden)",
+    "w": 220,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='name : Assoc' umlType='Connector' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' tooltip='Connector: durchgezogene Linie zwischen Parts/Ports; Name &apos;name : Association&apos;; Multiplizitäten/Rollen an den Enden (ConnectorEnd).' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='220' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='1' style='edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='-1' relative='1' as='geometry'><mxPoint x='4' y='2' as='offset'/></mxGeometry></mxCell><mxCell id='4' value='*' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='2' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Port",
+    "w": 16,
+    "h": 16,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='port : Type' umlType='Port' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' tooltip='Port: kleines Quadrat auf dem Rand des Classifiers; Name und optional &apos;: Typ&apos; daneben. Als relatives Kind bleibt der Port bei Größenänderung auf dem Rand.' id='2'><mxCell style='rounded=0;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='1'><mxGeometry width='16' height='16' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Klasse mit Ports (gekapselt)",
+    "w": 180,
+    "h": 100,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Class' umlType='EncapsulatedClassifier + Port' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' tooltip='Gekapselter Classifier mit Ports auf dem Rand (Ports verschiebbar, bleiben bei Größenänderung an ihrer Kante).' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=1;verticalAlign=top;spacingTop=8;' vertex='1' parent='1'><mxGeometry width='180' height='100' as='geometry'/></mxCell></UserObject><UserObject label='p1' umlType='Port' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' id='3'><mxCell style='rounded=0;html=1;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='2'><mxGeometry y='0.5' width='16' height='16' relative='1' as='geometry'><mxPoint x='-8' y='-8' as='offset'/></mxGeometry></mxCell></UserObject><UserObject label='p2 : PType' umlType='Port' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' id='4'><mxCell style='rounded=0;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='2'><mxGeometry x='1' y='0.5' width='16' height='16' relative='1' as='geometry'><mxPoint x='-8' y='-8' as='offset'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Konjugierter Port (~Type)",
+    "w": 16,
+    "h": 16,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='p : ~Type' umlType='Port (isConjugated=true)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' tooltip='Konjugierter Port: dem Typnamen wird eine Tilde vorangestellt (provided/required vertauscht).' id='2'><mxCell style='rounded=0;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='1'><mxGeometry width='16' height='16' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Port mit bereitgestelltem Interface",
+    "w": 80,
+    "h": 16,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Port + provided Interface' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4 / 10.4.4' tooltip='Port mit Lollipop für ein bereitgestelltes Interface.' id='2'><mxCell style='rounded=0;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='1'><mxGeometry width='16' height='16' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='InterfaceRealization (ball)' umlSpec='UML 2.5.1 (formal/17-12-05) §10.4.4' id='3'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=oval;endFill=0;endSize=14;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='80' y='8' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='4' value='IProvided' style='edgeLabel;resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='3'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='0' y='-10' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Port mit benötigtem Interface",
+    "w": 80,
+    "h": 16,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Port + required Interface' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4 / 10.4.4' tooltip='Port mit Socket für ein benötigtes Interface.' id='2'><mxCell style='rounded=0;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='1'><mxGeometry width='16' height='16' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Usage (socket)' umlSpec='UML 2.5.1 (formal/17-12-05) §10.4.4' id='3'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=halfCircle;endFill=0;endSize=8;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='80' y='8' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='4' value='IRequired' style='edgeLabel;resizable=0;html=1;align=center;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='3'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='0' y='-12' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Behavior Port",
+    "w": 160,
+    "h": 90,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Class' umlType='Port (isBehavior=true)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' tooltip='Behavior Port: Port ist mit einer Linie zu einem kleinen Zustandssymbol innerhalb des Classifiers verbunden (Anfragen werden vom Verhalten des Classifiers bearbeitet).' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=1;verticalAlign=top;spacingTop=6;' vertex='1' parent='1'><mxGeometry width='160' height='90' as='geometry'/></mxCell></UserObject><UserObject label='p' umlType='Port (isBehavior=true)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' id='3'><mxCell style='rounded=0;html=1;labelPosition=right;verticalLabelPosition=top;align=left;verticalAlign=bottom;spacingLeft=2;fontSize=11;points=[[0,0.5],[1,0.5],[0.5,0],[0.5,1]];' vertex='1' parent='2'><mxGeometry x='1' y='0.5' width='16' height='16' relative='1' as='geometry'><mxPoint x='-8' y='-8' as='offset'/></mxGeometry></mxCell></UserObject><UserObject label='' umlType='Behavior (state symbol)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' id='4'><mxCell style='rounded=1;arcSize=40;html=1;part=1;' vertex='1' parent='2'><mxGeometry x='1' y='0.5' width='26' height='14' relative='1' as='geometry'><mxPoint x='-70' y='-7' as='offset'/></mxGeometry></mxCell></UserObject><UserObject label='' umlType='Behavior Port link' umlSpec='UML 2.5.1 (formal/17-12-05) §11.3.4' id='5'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;' edge='1' parent='2' source='3' target='4'><mxGeometry relative='1' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kollaboration (Collaboration)",
+    "w": 280,
+    "h": 150,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Collaboration' umlSpec='UML 2.5.1 (formal/17-12-05) §11.7.4' tooltip='Collaboration: gestrichelte Ellipse mit Namens-Compartment (gestrichelte Trennlinie) und den Rollen (Parts) samt Connectoren.' id='2'><mxCell style='ellipse;dashed=1;html=1;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=1;' vertex='1' parent='1'><mxGeometry width='280' height='150' as='geometry'/></mxCell></UserObject><mxCell id='3' value='Collaboration' style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontStyle=1;' vertex='1' parent='2'><mxGeometry x='40' y='8' width='200' height='22' as='geometry'/></mxCell><mxCell id='4' value='' style='line;strokeWidth=1;dashed=1;html=1;fillColor=none;' vertex='1' parent='2'><mxGeometry x='28' y='30' width='224' height='8' as='geometry'/></mxCell><UserObject label='role1 : Type1' umlType='ConnectableElement (collaborationRole)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.7.4' id='5'><mxCell style='rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;' vertex='1' parent='2'><mxGeometry x='30' y='70' width='90' height='36' as='geometry'/></mxCell></UserObject><UserObject label='role2 : Type2' umlType='ConnectableElement (collaborationRole)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.7.4' id='6'><mxCell style='rounded=0;html=1;whiteSpace=wrap;verticalAlign=middle;' vertex='1' parent='2'><mxGeometry x='160' y='70' width='90' height='36' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Connector' umlSpec='UML 2.5.1 (formal/17-12-05) §11.2.4' id='7'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;' edge='1' parent='2' source='5' target='6'><mxGeometry relative='1' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kollaboration (kompakt)",
+    "w": 160,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Collaboration' umlType='Collaboration' umlSpec='UML 2.5.1 (formal/17-12-05) §11.7.4' tooltip='Collaboration ohne interne Struktur: gestrichelte Ellipse mit Namen.' id='2'><mxCell style='ellipse;dashed=1;html=1;whiteSpace=wrap;fontStyle=1;' vertex='1' parent='1'><mxGeometry width='160' height='60' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kollaboration als Classifier-Rechteck",
+    "w": 160,
+    "h": 46,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«collaboration»&lt;br&gt;&lt;b&gt;Collaboration&lt;/b&gt;' umlType='Collaboration' umlSpec='UML 2.5.1 (formal/17-12-05) §11.7.4' tooltip='Alternative: Classifier-Rechteck mit Schlüsselwort «collaboration».' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='160' height='46' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kollaborationsverwendung (CollaborationUse)",
+    "w": 160,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='use : Collaboration' umlType='CollaborationUse' umlSpec='UML 2.5.1 (formal/17-12-05) §11.7.4' tooltip='CollaborationUse: gestrichelte Ellipse mit &apos;name : Collaboration&apos;.' id='2'><mxCell style='ellipse;dashed=1;html=1;whiteSpace=wrap;' vertex='1' parent='1'><mxGeometry width='160' height='60' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Rollenbindung (role binding)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Dependency (CollaborationUse::roleBinding)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.7.4' tooltip='Rollenbindung: gestrichelte Linie von der CollaborationUse-Ellipse zum gebundenen (Client-)Element, am Client-Ende beschriftet mit dem Namen der Rolle (Supplier).' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;dashed=1;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='roleName' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='-2' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "«occurrence» (CollaborationUse)",
+    "w": 160,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='«occurrence»' umlType='CollaborationUse (dependency notation)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.7.4' tooltip='Alternative Notation: gestrichelter Pfeil vom Classifier zur Collaboration mit «occurrence».' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=10;dashed=1;verticalAlign=bottom;labelBackgroundColor=none;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='160' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Klasse (Typ)",
+    "w": 120,
+    "h": 40,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Class' umlType='Class' umlSpec='UML 2.5.1 (formal/17-12-05) §11.4.4' tooltip='Klasse als Typ von Parts.' id='2'><mxCell style='rounded=0;html=1;whiteSpace=wrap;fontStyle=1;' vertex='1' parent='1'><mxGeometry width='120' height='40' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Assoziation (Komposition)",
+    "w": 200,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Association (composite)' umlSpec='UML 2.5.1 (formal/17-12-05) §11.5.4' tooltip='Komposition im Klassendiagramm, deren Ende als Part erscheint.' id='2'><mxCell style='html=1;rounded=0;labelBackgroundColor=default;endArrow=none;startArrow=none;startArrow=diamondThin;startFill=1;startSize=16;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='200' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject><mxCell id='3' value='part' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='-2' as='offset'/></mxGeometry></mxCell><mxCell id='4' value='*' style='edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;labelBackgroundColor=none;connectable=0;' vertex='1' parent='2'><mxGeometry x='1' relative='1' as='geometry'><mxPoint x='-4' y='2' as='offset'/></mxGeometry></mxCell></root></mxGraphModel>"
+  },
+  {
+    "title": "Diagrammrahmen (class)",
+    "w": 360,
+    "h": 220,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='&lt;b&gt;class&lt;/b&gt; Name' umlType='Diagram frame (heading: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;])' umlSpec='UML 2.5.1 (formal/17-12-05) §Annex A' tooltip='Optionaler Diagrammrahmen. Kopf im Namensfeld (Rechteck mit abgeschnittener Ecke) oben links: [&lt;kind&gt;] &lt;name&gt; [&lt;parameters&gt;]; die Art wird fett dargestellt.' id='2'><mxCell style='shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;align=left;verticalAlign=top;spacingLeft=6;spacingTop=-2;width=100;height=24;' vertex='1' parent='1'><mxGeometry width='360' height='220' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar (Comment)",
+    "w": 220,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar: Rechteck mit umgeknickter Ecke; über eine gestrichelte Linie an annotierte Elemente gebunden. Keine Semantik.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Comment::annotatedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Ankerlinie zum annotierten Element' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='30' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Kommentar ohne Anker (Comment)",
+    "w": 140,
+    "h": 60,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='Kommentartext' umlType='Comment' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Kommentar ohne Bindung an ein Element.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;' vertex='1' parent='1'><mxGeometry width='140' height='60' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Ankerlinie (Comment/Constraint)",
+    "w": 120,
+    "h": 1,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='' umlType='Comment::annotatedElement' umlSpec='UML 2.5.1 (formal/17-12-05) §7.2.4' tooltip='Gestrichelte Linie, die einen Kommentar oder Constraint mit dem Element verbindet.' id='2'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1'><mxGeometry relative='1' as='geometry'><mxPoint x='0' y='0' as='sourcePoint'/><mxPoint x='120' y='0' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint {…} (Text)",
+    "w": 120,
+    "h": 24,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint als Text in geschweiften Klammern neben oder in der Nähe des eingeschränkten Elements: { [name :] boolean-expression }.' id='2'><mxCell style='text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;' vertex='1' parent='1'><mxGeometry width='120' height='24' as='geometry'/></mxCell></UserObject></root></mxGraphModel>"
+  },
+  {
+    "title": "Constraint im Notizsymbol",
+    "w": 220,
+    "h": 50,
+    "xml": "<mxGraphModel><root><mxCell id='0'/><mxCell id='1' parent='0'/><UserObject label='{constraint}' umlType='Constraint' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' tooltip='Constraint im Kommentarsymbol, per gestrichelter Linie an das/die eingeschränkte(n) Element(e) gebunden.' id='2'><mxCell style='shape=note;size=14;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=2;align=center;verticalAlign=middle;' vertex='1' parent='1'><mxGeometry width='140' height='50' as='geometry'/></mxCell></UserObject><UserObject label='' umlType='Constraint::constrainedElement (Ankerlinie)' umlSpec='UML 2.5.1 (formal/17-12-05) §7.6.4' id='3'><mxCell style='endArrow=none;dashed=1;html=1;dashPattern=4 4;rounded=0;' edge='1' parent='1' source='2'><mxGeometry relative='1' as='geometry'><mxPoint x='220' y='25' as='targetPoint'/></mxGeometry></mxCell></UserObject></root></mxGraphModel>"
+  }
+]]]></mxlibrary>
